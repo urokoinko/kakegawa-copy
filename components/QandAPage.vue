@@ -187,12 +187,9 @@ const openAnimekeyfram = (content) =>[
         </div>
     </div>
     <div class="QandA-link">
-            <a href="#">Q&Aをもっとくわしく</a>
+        <a href="#">Q&Aをもっとくわしく</a>
     </div>
-    <div id="app">
 
-
-</div>
 </template>
 <style scoped>
     /* Q&Aページ設定 */

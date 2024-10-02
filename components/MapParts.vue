@@ -1,7 +1,10 @@
 <script setup>
 import { onMounted } from 'vue';
-// import { gsap } from 'gsap';
-import { Draggable } from 'gsap/Draggable';
+import { gsap } from 'gsap';
+import { Draggable } from 'gsap/dist/Draggable';
+import { MotionPathPlugin } from 'gsap/all';
+
+gsap.registerPlugin(Draggable, MotionPathPlugin);
 
 onMounted(() =>{
 

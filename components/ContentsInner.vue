@@ -1,6 +1,6 @@
 <script setup>
-import { VueSlickCarousel } from 'vue-slick-carousel';
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+// import { VueSlickCarousel } from 'vue-slick-carousel';
+// import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 
 
@@ -138,7 +138,8 @@ onMounted(() => {
             </div>
             <div class="mobile-inner-ct">
                 <div>
-                    <vueSlickCarousel ref="carousel" v-bind="settings">
+                    <!-- v-bind="settings" -->
+                    <!-- <vueSlickCarousel ref="carousel" > -->
                         <div class="slide1 m-01-slide">
                             <div class="m-list-img">
                                 <img src="../assets/kakegawa-img/106d_L.jpg" alt="">
@@ -163,7 +164,7 @@ onMounted(() => {
                                 <a href="#">掛川花鳥園の仲間たち</a>
                             </div>
                         </div>
-                    </vueSlickCarousel>
+                    <!-- </vueSlickCarousel> -->
                 </div>
 
                 <div class="mobile-ct-list02">
